@@ -20,8 +20,8 @@ namespace _1._1_WinWorms_SimpleApp
         private void button1_Click(object sender, EventArgs e)
         {
             var name = this.textBox1.Text;
-
-            MessageBox.Show($"Hello {name} !");
+            
+            MessageBox.Show(ClassLibrary.Class1.Method(name));
 
         }
     }
