@@ -21,7 +21,7 @@ namespace _1._1_WinWorms_SimpleApp
         {
             var name = this.textBox1.Text;
             
-            MessageBox.Show(ClassLibrary.Class1.Method(name));
+            MessageBox.Show(ClassLibrary.Salutations.GetSalutation(name));
 
         }
     }

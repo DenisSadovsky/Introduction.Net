@@ -8,7 +8,7 @@ namespace Hello_Core
         {
             string name = Console.ReadLine();
    
-            Console.WriteLine(ClassLibrary.Class1.Method(name));
+            Console.WriteLine(ClassLibrary.Salutations.GetSalutation(name));
             Console.ReadKey();
             
         }
